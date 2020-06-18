@@ -1,10 +1,10 @@
 // Exercise 1.0
 // ------------
 console.log('exercise-1');
-const screen= document.querySelector('#bod');
+const body= document.querySelector('#bod');
 const text= document.createElement('p');
-bod.addEventListener('click',function(){
+body.addEventListener('click',function(){
     text.innerText="You Win!";
-    bod.appendChild(text);
+    body.appendChild(text);
 });
 
